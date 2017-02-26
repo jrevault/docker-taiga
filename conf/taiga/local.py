@@ -13,3 +13,5 @@ from .docker import *
 PUBLIC_REGISTER_ENABLED = False
 DEBUG = False
 TEMPLATE_DEBUG = False
+
+INSTALLED_APPS += ["taiga_contrib_slack"]
